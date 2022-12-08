@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>JSPWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- 필터 등록하는 방법과 필터체이닝 -->
+  <!--  
+  <filter>
+  	<filter-name>A</filter-name>
+  	<filter-class>com.example.util.filter.AuthFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>A</filter-name>
+  	<url-pattern>/board/board_write.board</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>B</filter-name>
+  	<filter-class>com.example.util.filter.AuthFilter2</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>B</filter-name>
+  	<url-pattern>/board/board_write.board</url-pattern>
+  </filter-mapping>
+  -->
+  
+</web-app>

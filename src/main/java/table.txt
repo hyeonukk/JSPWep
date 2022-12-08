@@ -1,0 +1,17 @@
+create table users(
+    id varchar2(30) PRIMARY Key,
+    pw varchar2(30) not null,
+    name varchar2(30) not null,
+    email varchar2(30) unique,
+    gender char(1) check (gender in ('f','m'))
+);
+
+create table board(
+    bno number(10) primary key,
+    writer varchar2(30) not null,
+    title varchar2(50) not null,
+    content varchar2(500),
+    regdate date default sysdate,
+    hit number(10) default 0
+);
+create sequence board_seq nocache;
